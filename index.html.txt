@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snow Day Guide – Home</title>
+    <meta name="description" content="Comprehensive guide to snow day calculators, predictions, weather factors, school closures, and FAQs." />
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <a href="index.html">❄️ SnowDayGuide</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="guides/understanding-snow-day-calculators/">Calculators</a></li>
+                    <li><a href="guides/how-snow-day-predictions-work/">Predictions</a></li>
+                    <li><a href="guides/weather-factors/">Weather</a></li>
+                    <li><a href="guides/school-closure-guide/">Closures</a></li>
+                    <li><a href="guides/faq/">FAQ</a></li>
+                    <li><a href="tools.html" style="color:#FFD700;font-weight:bold;">🛠️ Tools</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>❄️ Your Ultimate Snow Day Guide</h1>
+                <p>Everything you need to know about snow day calculators, weather predictions, and school closures.</p>
+                <a href="https://snowdaycalculator.io/" class="btn" target="_blank" rel="noopener noreferrer">Visit SnowDayCalculator.io</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>📚 Explore Our Guides</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3><a href="guides/understanding-snow-day-calculators/">🔢 Understanding Calculators</a></h3>
+                        <p>Learn how algorithms determine the likelihood of a snow day.</p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="guides/how-snow-day-predictions-work/">🔮 How Predictions Work</a></h3>
+                        <p>Discover the science and data behind accurate forecasts.</p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="guides/weather-factors/">🌨️ Weather Factors</a></h3>
+                        <p>Explore temperature, precipitation, wind chill, and more.</p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="guides/school-closure-guide/">🏫 Closure Guide</a></h3>
+                        <p>Find out how decisions are made and what to expect.</p>
+                    </div>
+                    <div class="card">
+                        <h3><a href="guides/faq/">❓ FAQ</a></h3>
+                        <p>Get quick answers to common snow day questions.</p>
+                    </div>
+                    <div class="card" style="border-left-color:#FFD700;">
+                        <h3><a href="tools.html">🛠️ Tools</a></h3>
+                        <p>Snow Day Calculator, Weather Radar, Alerts & more!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>🎯 Ready to check your snow day chances?</h2>
+                <a href="https://snowdaycalculator.io/" class="btn btn-light" target="_blank" rel="noopener noreferrer">Go to SnowDayCalculator.io</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 SnowDayGuide. Part of <a href="https://snowdaycalculator.io/" target="_blank" rel="noopener noreferrer">SnowDayCalculator.io</a></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

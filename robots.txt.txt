@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://snowdaycalculator.io/sitemap.xml

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snow Day Tools – SnowDayGuide</title>
+    <meta name="description" content="Essential tools for snow day predictions: calculator, weather radar, alerts, and more." />
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <a href="index.html">❄️ SnowDayGuide</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="guides/understanding-snow-day-calculators/">Calculators</a></li>
+                    <li><a href="guides/how-snow-day-predictions-work/">Predictions</a></li>
+                    <li><a href="guides/weather-factors/">Weather</a></li>
+                    <li><a href="guides/school-closure-guide/">Closures</a></li>
+                    <li><a href="guides/faq/">FAQ</a></li>
+                    <li><a href="tools.html" style="color:#FFD700;font-weight:bold;">🛠️ Tools</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="padding:50px 0;">
+            <div class="container">
+                <h1>🛠️ Snow Day Tools</h1>
+                <p>All the tools you need to predict and prepare for snow days.</p>
+            </div>
+        </section>
+
+        <section style="padding:40px 0;">
+            <div class="container">
+                <div class="tools-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;">
+
+                    <!-- Tool 1 -->
+                    <div class="card" style="border-left-color:#FFD700;">
+                        <h3>❄️ Snow Day Calculator</h3>
+                        <p>Enter your zip code to get the probability of a snow day in your area.</p>
+                        <br />
+                        <a href="https://snowdaycalculator.io/" target="_blank" rel="noopener noreferrer" class="btn" style="display:inline-block;padding:10px 24px;font-size:0.9rem;">Try Now →</a>
+                    </div>
+
+                    <!-- Tool 2 -->
+                    <div class="card" style="border-left-color:#FF6B35;">
+                        <h3>🌡️ Weather Radar</h3>
+                        <p>Live weather radar to track snowstorms in real-time.</p>
+                        <br />
+                        <a href="https://www.weather.gov/" target="_blank" rel="noopener noreferrer" class="btn" style="display:inline-block;padding:10px 24px;font-size:0.9rem;background:#FF6B35;">View Radar →</a>
+                    </div>
+
+                    <!-- Tool 3 -->
+                    <div class="card" style="border-left-color:#2EC4B6;">
+                        <h3>📱 School Closure Alerts</h3>
+                        <p>Get instant notifications when schools in your area announce closures.</p>
+                        <br />
+                        <a href="https://www.accuweather.com/" target="_blank" rel="noopener noreferrer" class="btn" style="display:inline-block;padding:10px 24px;font-size:0.9rem;background:#2EC4B6;">Set Alerts →</a>
+                    </div>
+
+                    <!-- Tool 4 -->
+                    <div class="card" style="border-left-color:#9B5DE5;">
+                        <h3>🗺️ Road Conditions</h3>
+                        <p>Check road conditions and travel advisories before heading out.</p>
+                        <br />
+                        <a href="https://www.511.org/" target="_blank" rel="noopener noreferrer" class="btn" style="display:inline-block;padding:10px 24px;font-size:0.9rem;background:#9B5DE5;">Check Roads →</a>
+                    </div>
+
+                    <!-- Tool 5 -->
+                    <div class="card" style="border-left-color:#F15BB5;">
+                        <h3>📊 Snow Accumulation Map</h3>
+                        <p>Interactive map showing snow accumulation forecasts across the country.</p>
+                        <br />
+                        <a href="https://www.weather.gov/" target="_blank" rel="noopener noreferrer" class="btn" style="display:inline-block;padding:10px 24px;font-size:0.9rem;background:#F15BB5;">View Map →</a>
+                    </div>
+
+                    <!-- Tool 6 -->
+                    <div class="card" style="border-left-color:#00BBF9;">
+                        <h3>📋 Snow Day Checklist</h3>
+                        <p>Printable checklist to prepare for a snow day at home.</p>
+                        <br />
+                        <a href="#" onclick="alert('📋 Snow Day Checklist:\n\n☑️ Charge all devices\n☑️ Stock food & water\n☑️ Prepare warm clothes\n☑️ Plan indoor activities\n☑️ Check school announcements')" class="btn" style="display:inline-block;padding:10px 24px;font-size:0.9rem;background:#00BBF9;">Get Checklist →</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Links Section -->
+        <section style="padding:40px 0;background:#e8f4f8;">
+            <div class="container">
+                <h2 style="text-align:center;color:#023e8a;margin-bottom:30px;">📖 Related Guides</h2>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;text-align:center;">
+                    <a href="guides/understanding-snow-day-calculators/" style="background:white;padding:15px;border-radius:10px;text-decoration:none;color:#023e8a;font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,0.06);">🔢 Understanding Calculators</a>
+                    <a href="guides/how-snow-day-predictions-work/" style="background:white;padding:15px;border-radius:10px;text-decoration:none;color:#023e8a;font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,0.06);">🔮 How Predictions Work</a>
+                    <a href="guides/weather-factors/" style="background:white;padding:15px;border-radius:10px;text-decoration:none;color:#023e8a;font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,0.06);">🌨️ Weather Factors</a>
+                    <a href="guides/school-closure-guide/" style="background:white;padding:15px;border-radius:10px;text-decoration:none;color:#023e8a;font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,0.06);">🏫 Closure Guide</a>
+                    <a href="guides/faq/" style="background:white;padding:15px;border-radius:10px;text-decoration:none;color:#023e8a;font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,0.06);">❓ FAQ</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 SnowDayGuide. Part of <a href="https://snowdaycalculator.io/" target="_blank" rel="noopener noreferrer">SnowDayCalculator.io</a></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
